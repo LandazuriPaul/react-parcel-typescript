@@ -15,6 +15,7 @@ It comes with the corresponding [@types](https://github.com/DefinitelyTyped/Defi
 It also includes some hidden files to help during the development process:
 
 - [EditorConfig](https://editorconfig.org/): `.editorconfig`
+- [ESLint](https://eslint.org/) with [TypeScript parser](https://github.com/typescript-eslint/typescript-eslint) and React + React Hooks configuration: `.eslintrc` following [this article](https://medium.com/@oliver.grack/using-eslint-with-typescript-and-react-hooks-and-vscode-c583a18f0c75) as a starting point
 - [Prettier](https://prettier.io/): `.prettierrc`
 
 ---
