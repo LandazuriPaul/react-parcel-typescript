@@ -5,7 +5,7 @@ import { App } from '~/components/App';
 import { APP_ROOT } from '~/config';
 
 const rootElement = document.getElementById(APP_ROOT);
-function ReactApp() {
+function ReactApp(): JSX.Element {
   return (
     <Suspense fallback={<div />}>
       <App />

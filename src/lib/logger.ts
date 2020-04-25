@@ -15,19 +15,19 @@ debugError.enabled = true;
 debugError.color = '#b01405';
 
 export class Logger {
-  static info(...args) {
+  static info(...args): void {
     return debugInfo(args);
   }
 
-  static log(...args) {
+  static log(...args): void {
     return debugInfo(args);
   }
 
-  static warn(...args) {
+  static warn(...args): void {
     return debugWarn(args);
   }
 
-  static error(e: Error, ...rest) {
+  static error(e: Error, ...rest): void {
     let message = e.toString();
     if (e.stack) {
       message = `${message}\n__Stack trace__\n\n${e.stack}`;
